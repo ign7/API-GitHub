@@ -1,0 +1,284 @@
+
+.nav{
+    background-color: rgb(219, 213, 213);
+    max-height: 300px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.redes{
+    font-size: 32px;
+   
+    font-weight: 500;
+}
+.redesociais i {
+    font-size: 36px;
+    padding: 8px;
+}
+
+.desc{
+    padding: 0px 32px 0px 32px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+.perfil img {
+    padding: 32px;
+    width: 450px;
+    vertical-align: middle;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+
+}
+.perfil{
+    height: 500px;
+    display: flex;
+    padding: 32px;
+}
+
+.projetos  img {
+     max-width: 100%;
+     padding: 10px;
+     
+
+    }
+    
+
+ 
+ 
+
+ .card{
+     width: 100%;
+     height: 300px;
+ }
+ .containerExperiencia{
+     margin-top: 20px;
+ }
+ 
+ .github {
+     width: 100%;
+     background-color: rgb(248, 246, 246);
+     display: flex;
+     flex-direction: column;
+    
+ }
+ .titulogit{
+
+     padding: 12px 60px;
+ }
+ .pgit{
+     font-weight: bold;
+ }
+
+ .h3git{
+    padding: 12px;
+ }
+ .repositorio > i {
+     font-size: 30px;
+ }
+ .iconFolder{
+     padding: 0px 12px;
+     font-size: 27px;
+ }
+
+ .ctd{
+     padding: 16px;
+ }
+ .repositorio{
+     display: flex;
+     align-items: center;
+ }
+ .containerRepositorio{
+    width: 30%;
+ }
+ .containergithub{
+     display: flex;
+     justify-content:  center;
+
+     width: 100%;
+ }
+     
+ 
+ .btn {
+    margin: 2px;
+     float: right; 
+       
+ }
+ 
+
+
+/*TESTE*/ 
+.teste img {
+    max-width: 100%;
+    display: flex;
+    padding: 16px;
+    
+    
+}
+.containerProjetos{
+    
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-between;
+   height: 250px;
+}
+
+.containerProjetos div img {
+    height: 100%;
+    width: 315px;
+}
+.containerProjetos div p {
+   padding: 0px 12px 12px 16px;
+   font-weight: bold;
+   font-size: 24px;
+   
+
+}
+
+.teste2 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    max-width: 100%;
+}
+.teste2 h1 {
+    padding: 0px 32px 0px 32px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grid1{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat( 2,1fr);
+}
+.anuncio{
+    grid-column: 2;
+
+}
+.anuncio > p{
+    padding: 32px;
+}
+.exp , .proj {
+    display: flex;
+    padding: 32px 0px;
+    justify-content: space-between;
+}
+
+.carregar{
+    
+    width: 300px;
+}
+
+.containerDropdown{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 32px;
+}
+@media (min-width: 360px) and (max-width: 980px)
+{
+     .perfil {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .perfil img {
+        width: 260px;
+    }
+    .containerProjetos{
+        
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .proj{
+        flex-wrap: wrap;
+    }
+    .containerProjetos div img{
+        height: 85%;
+    }
+.prg{
+    display: none;
+}
+ 
+.card iframe{
+    
+    width: 100%;
+   padding: 12px;
+
+} 
+
+}
+
+@media (max-width: 358px)
+{
+    .containerDropdown{
+
+        height: 100px;
+        width: 330px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: right;
+        padding: 32px;        
+    }
+
+    .experiencia img {
+        width: 27%;
+        
+    }
+    .perfil {
+        flex-wrap: wrap;
+        height: 100%;
+        
+    }
+
+    .perfil img {
+        width: 240px;
+        padding: 32px;
+       
+        vertical-align: middle;
+        border: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 100%;
+        
+    }
+    .containerProjetos{
+        
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .proj{
+        flex-wrap: wrap;
+    }
+    .containerProjetos div img{
+        height: 85%;
+    }
+.prg{
+    display: none;
+}
+   .row iframe {
+     width: 150px;
+ }
+.card iframe{
+    
+    width: 280px;
+   padding: 12px; 
+
+ 
+}
+
+ 
+ 
+
+}
+
